@@ -1,0 +1,8 @@
+.idea
+.vscode
+config.toml
+storage/logs/*
+smartdial
+*.zip
+bin
+.toml

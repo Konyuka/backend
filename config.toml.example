@@ -1,0 +1,53 @@
+# Config stores all the settings related to the software
+
+title = "Smartdial App Configuration"
+
+[app]
+    #App Name
+    name = "Smartdial"
+
+    #HTTP server port.
+    port = "7070"
+
+    #'development','production'
+    environment = "development"
+
+    #true,false
+    debug = true
+
+    # path to logfile
+    log_path = "./storage/logs"
+
+    # storage path
+    storage_path = "./storage"
+
+    #string
+    secret = "xTrwfsfUytrweasMklggTDaLp"
+
+#Database settings
+[database]
+
+    # Database driver 
+    driver = "mysql"
+
+    #Database Name
+    dbname = "" #
+
+    # Database Host
+    host = "127.0.0.1"
+
+    # Database Port 
+    port = "3306" 
+
+    # Database User
+    user = "" 
+
+    # DB Password 
+    pass = "" 
+
+# Redis settings
+[redis] 
+    # Redis addr
+    address = "localhost"
+    # Redis port
+    port    = "6379" 
